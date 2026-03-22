@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head {
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: #339933;
+}
+header {
+  position: fixed;
+  align-content: center;
+  text-align: center;
+  padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://uploads.onecompiler.io/43u2w34ec/44gkr7cma/for%20html.png');
+  background-size: 50%;
+}
+footer {
+    border: 2px solid #000; /* Adds a solid, 2px thick, black border around the entire footer */
+    padding: 20px; /* Optional: adds space between the content and the border */
+}
+header svg {
+    border-left: none;
+}
+
+.section1 {
+  background-image: url(https://uploads.onecompiler.io/43u2w34ec/44gkr7cma/for%20html.png);
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.box {
+   justify-content: center;
+}
+
+p {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+.bgimage {
+    display: block;
+  margin: 0 auto;
+  align-content: center;
+}
+background-image{
+    display: block;
+  margin: 0 auto;
+  align-content: center;
+  radial-gradient(ellipse at center, transparent 0%, transparent 50%, rgba(0,0,0,0.8) 100%)
+}
